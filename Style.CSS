@@ -1,0 +1,117 @@
+:root{
+    font-size: 62.5%; /* базовый размер шрифта в rem 16 px*0.25=10px (1 prem)*/
+}
+
+body{
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+header{background-color: black;
+color: white;
+background-image: url(../images/backpic.jpeg);
+background-size: cover;
+background-color: aliceblue;
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.container{
+    max-width: 75%;
+    margin:auto
+}
+
+.navigator{
+font-size: 1.2rem;
+font-weight: bold;
+padding: 20px 0 /*Внутренний отступ, первая цифра - отступ сверху и снизу, вторая слева и справа*/ ;
+}
+
+.navigator a{ /*cтиль применитсЯ ко всем ссылкам которые находятся внутри  блока с классом navigator*/
+    margin-right: 10px;
+    text-decoration: none
+    color rgb(255, 255, 255)
+
+} 
+.navigator a:hover {
+    /*меняет цвет при наведении курсора мыши*/
+    transition: color 0.5s ; /*время анимации*/
+    color: rgb(19, 182, 231);
+
+}
+
+main p{
+    text-align: justify;
+}
+
+.avatar{
+    height: 350px;
+    text-align: center;
+    margin: 3rem 0;
+   background-image: url(../images/backpic.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+}
+.avatar img{
+    height: 100%;
+}
+.btn{
+    text-decoration: none;
+    color: rgb(79, 79, 248);
+    font-weight: bold;
+    border: 2px solid rgb(79, 79, 248);
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.contact_btn{
+    color: white;
+    border-color: white;
+    display: inline-block; /* тег чтобы кнопка не наползала, строчный элемент*/
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+
+}
+/* text alight center чтобы выравнить текст*/
+
+.main_border{
+padding-bottom: 3px;
+padding-top:20px;
+}
+
+.ROW{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.ROW img{
+    display: flex;
+    margin-right: auto;
+}
+.home-office{
+    background-color: aliceblue;
+    text-align: left; 
+    width: 50%;
+
+}
+
+.house img{
+    display: flex;
+    margin-right: auto;
+    max-width: 100%;
+    position: right;
+}
+
+.main_border {
+    display: flex;
+}
+
+.house{
+    width: 50%;
+}
